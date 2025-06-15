@@ -1,25 +1,43 @@
-# 🔍 Escáner de Red Agresivo (Python + Nmap)
+# 🔍 SniffRouter - Escáner de Red Agresivo (Python + Nmap)
+
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)](https://www.python.org/)
+[![Nmap](https://img.shields.io/badge/Nmap-Installed-important?logo=nmap)](https://nmap.org/)
+[![Rich](https://img.shields.io/badge/Rich-%F0%9F%92%8E-purple?logo=python)](https://github.com/Textualize/rich)
+[![python-nmap](https://img.shields.io/badge/python--nmap-%F0%9F%9A%80-orange)](https://github.com/alexxy/python-nmap)
+
+> 🚨 Herramienta para escaneos agresivos y visuales en redes personales o de laboratorio.
+
+---
+
+## 📡 ¿Qué hace?
 
 Este script realiza un escaneo agresivo sobre tu red local utilizando `nmap`. Detecta:
 
-- Dispositivos activos
-- IPs, hostnames y direcciones MAC
-- Sistemas operativos (probables)
-- Puertos abiertos
+- 🖥️ **Dispositivos activos**
+- 🌐 **IPs, hostnames y direcciones MAC**
+- 🧠 **Sistemas operativos (probables)**
+- 🔐 **Puertos abiertos**
 
-Incluye una interfaz en terminal enriquecida con `rich` (tablas a color, barra de progreso) y exporta los resultados en archivos `.json` y `.csv`.
+Presenta los resultados en una **interfaz de terminal enriquecida con `rich`**, y permite exportar los datos a:
 
-> ⚠️ Diseñado para auditorías éticas, uso educativo o redes personales. No utilizar en redes ajenas sin permiso.
+- 📄 `.json`
+- 📊 `.csv`
 
----
-
-## ⚙️ Requisitos Generales
-
-- Python 3.7 o superior
-- Nmap instalado en el sistema
-- Permisos de superusuario (`sudo`)
-- Librerías de Python:
-  - `rich`
-  - `python-nmap`
+> ⚠️ **Uso ético solamente**: diseñado para redes personales, entornos educativos o auditorías autorizadas. ¡No lo uses en redes ajenas sin permiso!
 
 ---
+
+## ⚙️ Requisitos
+
+- 🐍 Python 3.7 o superior
+- 🔧 `nmap` instalado en el sistema
+- 🔐 Permisos de superusuario (`sudo`)
+- 📦 Librerías de Python:
+  - [`rich`](https://github.com/Textualize/rich)
+  - [`python-nmap`](https://github.com/alexxy/python-nmap)
+
+Instalación rápida:
+
+```bash
+pip install -r requirements.txt
